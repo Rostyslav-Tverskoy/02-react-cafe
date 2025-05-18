@@ -1,6 +1,6 @@
 import css from "./App.module.css"
 import CafeInfo from '../CafeInfo/CafeInfo'
-import {type Votes, type VoteType} from "../../Types/votes"
+import {type Votes, type VoteType} from "../../types/votes"
 import { useState } from 'react'
 import VoteOptions from "../VoteOptions/VoteOptions"
 import VoteStats from "../VoteStats/VoteStats"
@@ -18,7 +18,7 @@ export default function App() {
 
     }
     const resetVotes = () => {
-       setVotes({good: 0, neutral: 0, bad: 0});
+       setVotes({good: 0, neutral: 0, bad: 0})
     };
 
 
